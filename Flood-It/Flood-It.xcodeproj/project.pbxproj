@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4158511AEC72A200FF1FB3 /* FloodItGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4158501AEC72A200FF1FB3 /* FloodItGame.m */; };
+		2AA030FB1AE97D71009B6CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA030FA1AE97D71009B6CF3 /* main.m */; };
+		2AA030FE1AE97D71009B6CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA030FD1AE97D71009B6CF3 /* AppDelegate.m */; };
+		2AA031011AE97D71009B6CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA031001AE97D71009B6CF3 /* ViewController.m */; };
+		2AA031041AE97D71009B6CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA031021AE97D71009B6CF3 /* Main.storyboard */; };
+		2AA031061AE97D71009B6CF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA031051AE97D71009B6CF3 /* Images.xcassets */; };
+		2AA031091AE97D71009B6CF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA031071AE97D71009B6CF3 /* LaunchScreen.xib */; };
+		2AA031151AE97D71009B6CF3 /* Flood_ItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA031141AE97D71009B6CF3 /* Flood_ItTests.m */; };
+		2AA031201AE97D8D009B6CF3 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0311F1AE97D8D009B6CF3 /* Pixel.m */; };
+		2AA031241AE9B7F8009B6CF3 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA031231AE9B7F8009B6CF3 /* Board.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AA0310F1AE97D71009B6CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AA030ED1AE97D71009B6CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA030F41AE97D71009B6CF3;
+			remoteInfo = "Flood-It";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A41584F1AEC72A200FF1FB3 /* FloodItGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloodItGame.h; sourceTree = "<group>"; };
+		2A4158501AEC72A200FF1FB3 /* FloodItGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloodItGame.m; sourceTree = "<group>"; };
+		2AA030F51AE97D71009B6CF3 /* Flood-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flood-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA030F91AE97D71009B6CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA030FA1AE97D71009B6CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AA030FC1AE97D71009B6CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AA030FD1AE97D71009B6CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AA030FF1AE97D71009B6CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AA031001AE97D71009B6CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AA031031AE97D71009B6CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AA031051AE97D71009B6CF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AA031081AE97D71009B6CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2AA0310E1AE97D71009B6CF3 /* Flood-ItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flood-ItTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA031131AE97D71009B6CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA031141AE97D71009B6CF3 /* Flood_ItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flood_ItTests.m; sourceTree = "<group>"; };
+		2AA0311E1AE97D8D009B6CF3 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixel.h; sourceTree = "<group>"; };
+		2AA0311F1AE97D8D009B6CF3 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pixel.m; sourceTree = "<group>"; };
+		2AA031221AE9B7F8009B6CF3 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		2AA031231AE9B7F8009B6CF3 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA030F21AE97D71009B6CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA0310B1AE97D71009B6CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA030EC1AE97D71009B6CF3 = {
+			isa = PBXGroup;
+			children = (
+				2AA030F71AE97D71009B6CF3 /* Flood-It */,
+				2AA031111AE97D71009B6CF3 /* Flood-ItTests */,
+				2AA030F61AE97D71009B6CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA030F61AE97D71009B6CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA030F51AE97D71009B6CF3 /* Flood-It.app */,
+				2AA0310E1AE97D71009B6CF3 /* Flood-ItTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA030F71AE97D71009B6CF3 /* Flood-It */ = {
+			isa = PBXGroup;
+			children = (
+				2AA030FC1AE97D71009B6CF3 /* AppDelegate.h */,
+				2AA030FD1AE97D71009B6CF3 /* AppDelegate.m */,
+				2AA030FF1AE97D71009B6CF3 /* ViewController.h */,
+				2AA031001AE97D71009B6CF3 /* ViewController.m */,
+				2AA031211AE97D9F009B6CF3 /* Model */,
+				2AA031021AE97D71009B6CF3 /* Main.storyboard */,
+				2AA031051AE97D71009B6CF3 /* Images.xcassets */,
+				2AA031071AE97D71009B6CF3 /* LaunchScreen.xib */,
+				2AA030F81AE97D71009B6CF3 /* Supporting Files */,
+			);
+			path = "Flood-It";
+			sourceTree = "<group>";
+		};
+		2AA030F81AE97D71009B6CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA030F91AE97D71009B6CF3 /* Info.plist */,
+				2AA030FA1AE97D71009B6CF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AA031111AE97D71009B6CF3 /* Flood-ItTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AA031141AE97D71009B6CF3 /* Flood_ItTests.m */,
+				2AA031121AE97D71009B6CF3 /* Supporting Files */,
+			);
+			path = "Flood-ItTests";
+			sourceTree = "<group>";
+		};
+		2AA031121AE97D71009B6CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AA031131AE97D71009B6CF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AA031211AE97D9F009B6CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AA0311E1AE97D8D009B6CF3 /* Pixel.h */,
+				2AA0311F1AE97D8D009B6CF3 /* Pixel.m */,
+				2AA031221AE9B7F8009B6CF3 /* Board.h */,
+				2AA031231AE9B7F8009B6CF3 /* Board.m */,
+				2A41584F1AEC72A200FF1FB3 /* FloodItGame.h */,
+				2A4158501AEC72A200FF1FB3 /* FloodItGame.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA030F41AE97D71009B6CF3 /* Flood-It */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA031181AE97D71009B6CF3 /* Build configuration list for PBXNativeTarget "Flood-It" */;
+			buildPhases = (
+				2AA030F11AE97D71009B6CF3 /* Sources */,
+				2AA030F21AE97D71009B6CF3 /* Frameworks */,
+				2AA030F31AE97D71009B6CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flood-It";
+			productName = "Flood-It";
+			productReference = 2AA030F51AE97D71009B6CF3 /* Flood-It.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AA0310D1AE97D71009B6CF3 /* Flood-ItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA0311B1AE97D71009B6CF3 /* Build configuration list for PBXNativeTarget "Flood-ItTests" */;
+			buildPhases = (
+				2AA0310A1AE97D71009B6CF3 /* Sources */,
+				2AA0310B1AE97D71009B6CF3 /* Frameworks */,
+				2AA0310C1AE97D71009B6CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AA031101AE97D71009B6CF3 /* PBXTargetDependency */,
+			);
+			name = "Flood-ItTests";
+			productName = "Flood-ItTests";
+			productReference = 2AA0310E1AE97D71009B6CF3 /* Flood-ItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA030ED1AE97D71009B6CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = BAP;
+				TargetAttributes = {
+					2AA030F41AE97D71009B6CF3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					2AA0310D1AE97D71009B6CF3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 2AA030F41AE97D71009B6CF3;
+					};
+				};
+			};
+			buildConfigurationList = 2AA030F01AE97D71009B6CF3 /* Build configuration list for PBXProject "Flood-It" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AA030EC1AE97D71009B6CF3;
+			productRefGroup = 2AA030F61AE97D71009B6CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA030F41AE97D71009B6CF3 /* Flood-It */,
+				2AA0310D1AE97D71009B6CF3 /* Flood-ItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA030F31AE97D71009B6CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA031041AE97D71009B6CF3 /* Main.storyboard in Resources */,
+				2AA031091AE97D71009B6CF3 /* LaunchScreen.xib in Resources */,
+				2AA031061AE97D71009B6CF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA0310C1AE97D71009B6CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA030F11AE97D71009B6CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA031201AE97D8D009B6CF3 /* Pixel.m in Sources */,
+				2AA031011AE97D71009B6CF3 /* ViewController.m in Sources */,
+				2AA030FE1AE97D71009B6CF3 /* AppDelegate.m in Sources */,
+				2AA030FB1AE97D71009B6CF3 /* main.m in Sources */,
+				2AA031241AE9B7F8009B6CF3 /* Board.m in Sources */,
+				2A4158511AEC72A200FF1FB3 /* FloodItGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AA0310A1AE97D71009B6CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA031151AE97D71009B6CF3 /* Flood_ItTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AA031101AE97D71009B6CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AA030F41AE97D71009B6CF3 /* Flood-It */;
+			targetProxy = 2AA0310F1AE97D71009B6CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AA031021AE97D71009B6CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA031031AE97D71009B6CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AA031071AE97D71009B6CF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AA031081AE97D71009B6CF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AA031161AE97D71009B6CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AA031171AE97D71009B6CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AA031191AE97D71009B6CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flood-It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2AA0311A1AE97D71009B6CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flood-It/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2AA0311C1AE97D71009B6CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flood-ItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flood-It.app/Flood-It";
+			};
+			name = Debug;
+		};
+		2AA0311D1AE97D71009B6CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flood-ItTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flood-It.app/Flood-It";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA030F01AE97D71009B6CF3 /* Build configuration list for PBXProject "Flood-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA031161AE97D71009B6CF3 /* Debug */,
+				2AA031171AE97D71009B6CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA031181AE97D71009B6CF3 /* Build configuration list for PBXNativeTarget "Flood-It" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA031191AE97D71009B6CF3 /* Debug */,
+				2AA0311A1AE97D71009B6CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA0311B1AE97D71009B6CF3 /* Build configuration list for PBXNativeTarget "Flood-ItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA0311C1AE97D71009B6CF3 /* Debug */,
+				2AA0311D1AE97D71009B6CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AA030ED1AE97D71009B6CF3 /* Project object */;
+}
