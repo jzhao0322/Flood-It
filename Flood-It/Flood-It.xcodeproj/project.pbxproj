@@ -17,6 +17,8 @@
 		2AA031151AE97D71009B6CF3 /* Flood_ItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA031141AE97D71009B6CF3 /* Flood_ItTests.m */; };
 		2AA031201AE97D8D009B6CF3 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0311F1AE97D8D009B6CF3 /* Pixel.m */; };
 		2AA031241AE9B7F8009B6CF3 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA031231AE9B7F8009B6CF3 /* Board.m */; };
+		57C11A541AFA18FF006ACD2F /* colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C11A531AFA18FF006ACD2F /* colors.plist */; };
+		57C11A561AFAD4CD006ACD2F /* levels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C11A551AFAD4CD006ACD2F /* levels.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2AA0311F1AE97D8D009B6CF3 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pixel.m; sourceTree = "<group>"; };
 		2AA031221AE9B7F8009B6CF3 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
 		2AA031231AE9B7F8009B6CF3 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		57C11A531AFA18FF006ACD2F /* colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colors.plist; sourceTree = "<group>"; };
+		57C11A551AFAD4CD006ACD2F /* levels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = levels.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				2AA030F91AE97D71009B6CF3 /* Info.plist */,
+				57C11A531AFA18FF006ACD2F /* colors.plist */,
+				57C11A551AFAD4CD006ACD2F /* levels.plist */,
 				2AA030FA1AE97D71009B6CF3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -222,7 +228,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C11A541AFA18FF006ACD2F /* colors.plist in Resources */,
 				2AA031041AE97D71009B6CF3 /* Main.storyboard in Resources */,
+				57C11A561AFAD4CD006ACD2F /* levels.plist in Resources */,
 				2AA031091AE97D71009B6CF3 /* LaunchScreen.xib in Resources */,
 				2AA031061AE97D71009B6CF3 /* Images.xcassets in Resources */,
 			);

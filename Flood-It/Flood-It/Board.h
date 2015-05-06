@@ -12,6 +12,7 @@
 @interface Board : NSObject
 
 @property NSMutableArray *_board;
+@property NSInteger _sideLength;
 
 - (instancetype) initWithSize:(NSInteger) sideLength;
 - (Pixel*) pixelAtX:(NSInteger) xCoordinate

@@ -12,6 +12,8 @@
 
 @synthesize _gameBoard;
 @synthesize _movesRemaining;
+@synthesize _gameOver;
+@synthesize _gameWon;
 
 - (instancetype) initWithDifficulty:(NSInteger)difficulty {
     self = [super init];
@@ -19,15 +21,17 @@
         NSInteger lengthsByDifficulty[3];
         NSInteger movesByDifficulty[3];
         for (int i = 0; i < 3; i += 1) {
-            lengthsByDifficulty[i] = 14 + 7 * i;
+            lengthsByDifficulty[i] = 8 + 3 * i;
         }
         for (int j = 0; j < 3; j += 1) {
-            movesByDifficulty[j] = 20 + 5 * (2 * j + 1);
+//            movesByDifficulty[j] = 20 + 5 * (2 * j + 1);
+            movesByDifficulty[j] = 20 + 5 * j;
         }
         _movesRemaining = movesByDifficulty[difficulty];
         NSInteger length = lengthsByDifficulty[difficulty];
         _gameBoard = [[Board alloc] initWithSize:length];
     }
+    self._gameOver = NO;
     return self;
 }
 
@@ -48,11 +52,13 @@
 }
 
 - (void) winGame {
-    
+    self._gameOver = YES;
+    self._gameWon = YES;
 }
 
 - (void) lostGame {
-    
+    self._gameOver = YES;
+    self._gameWon = NO;
 }
 
 @end

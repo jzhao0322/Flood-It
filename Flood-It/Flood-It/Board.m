@@ -11,6 +11,7 @@
 @implementation Board
 
 @synthesize _board;
+@synthesize _sideLength;
 
 static const int NUMBER_TYPES = 6;
 
@@ -18,6 +19,7 @@ static const int NUMBER_TYPES = 6;
     self = [super init];
     
     if (self) {
+        _sideLength = sideLength;
         _board = [[NSMutableArray alloc] initWithCapacity:sideLength];
         for (int i = 0; i < sideLength; i += 1) {
             NSMutableArray *row = [[NSMutableArray alloc] initWithCapacity:sideLength];
@@ -57,10 +59,26 @@ static const int NUMBER_TYPES = 6;
     } else {
         [pixel floodPixel:replacementType];
     }
-    Pixel *right = [self pixelAtX:pixel._xCoordinate + 1 atY:pixel._yCoordinate];
-    Pixel *down = [self pixelAtX:pixel._xCoordinate atY:pixel._yCoordinate + 1];
-    [self floodFill:right ofType:targetType withType:replacementType];
-    [self floodFill:down ofType:targetType withType:replacementType];
+    
+    if (pixel._xCoordinate + 1 < self._sideLength) {
+        Pixel *right = [self pixelAtX:pixel._xCoordinate + 1 atY:pixel._yCoordinate];
+        [self floodFill:right ofType:targetType withType:replacementType];
+    }
+    
+    if (pixel._yCoordinate + 1 < self._sideLength) {
+        Pixel *down = [self pixelAtX:pixel._xCoordinate atY:pixel._yCoordinate + 1];
+        [self floodFill:down ofType:targetType withType:replacementType];
+    }
+    
+    if (pixel._xCoordinate - 1 >= 0) {
+        Pixel *left = [self pixelAtX:pixel._xCoordinate - 1 atY:pixel._yCoordinate];
+        [self floodFill:left ofType:targetType withType:replacementType];
+    }
+    
+    if (pixel._yCoordinate - 1 >= 0) {
+        Pixel *up = [self pixelAtX:pixel._xCoordinate atY:pixel._yCoordinate - 1];
+        [self floodFill:up ofType:targetType withType:replacementType];
+    }
 }
 
 - (BOOL) boardFlooded {
@@ -81,7 +99,7 @@ static const int NUMBER_TYPES = 6;
         for (Pixel *pixel in row) {
             result = [result stringByAppendingString:[NSString stringWithFormat:@"%ld", (long)pixel._typeIndex]];
         }
-        result = [result stringByAppendingString:@"\r"];
+//        result = [result stringByAppendingString:@"\r"];
     }
     return result;
 }
